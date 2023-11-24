@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'RetroFamous';
+  src: url('components/RetroFamous.ttf') format('truetype');
+}
+header{
+  margin-top:10%;
+}
+body {
+  background-image: url("components/sumup.png");
+  font-family: 'RetroFamous', sans-serif;
+  color: rgb(48, 47, 47);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(72, 174, 111);
+}
+
+.numBox {
+  width: 100%;
+  text-align: center; 
+}
+
+.numBox label {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+.numBox input {
+  margin-bottom: 5px;
+  width: 35%; 
+  box-sizing: border-box; 
+}
+
+
+#submitButton {
+  font-family: 'RetroFamous', sans-serif;
+  color: rgb(85, 84, 84);  
+  background-color: #a8d3a8; 
+  padding: 10px 20px; 
+  border: 1px solid #006400; 
+  cursor: pointer;
+  border-radius: 5px; 
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+#submitButton:hover {
+  background-color: #b3ffb3; 
+}
+
+#resultDisplay {
+  margin-top: 2%; 
+  font-size: 24px; 
+}
+
+.resultValue {
+  font-size: 1.5em; 
+}
+
+#restartButton {
+  font-family: 'RetroFamous', sans-serif;
+  color: rgb(85, 84, 84);  
+  background-color: #a8d3a8; 
+  padding: 5px 10px; 
+  border: 1px solid #006400; 
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 72%; 
+  right: 40%; 
+}
+
+#restartButton:hover {
+  background-color: #b3ffb3; 
+}
