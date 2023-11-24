@@ -1,0 +1,1 @@
+The components folder contains custom font, audio and background image for my web application. 
