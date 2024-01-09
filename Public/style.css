@@ -2,21 +2,31 @@
   font-family: 'RetroFamous';
   src: url('components/RetroFamous.ttf') format('truetype');
 }
+
 header{
   margin-top:10%;
 }
-body {
+
+*{
   background-image: url("components/sumup.png");
-  font-family: 'RetroFamous', sans-serif;
-  color: rgb(48, 47, 47);
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   position: relative;
-  width: 100vw;
-  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body {
+  font-family: 'RetroFamous', sans-serif;
+  color: rgb(48, 47, 47);
+  text-align: center;
+  display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   flex-direction: column;
